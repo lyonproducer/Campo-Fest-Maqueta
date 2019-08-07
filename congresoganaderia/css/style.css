@@ -1,0 +1,701 @@
+body{
+	font-family: 'Oswald', sans-serif !important;
+	min-width: 400px;
+}
+
+.home{
+	overflow: hidden;
+}
+
+.green-1{
+	background-color: #4B9E50;
+}
+
+
+
+/****************************************************** Generales*/
+.bloque-fecha{
+	color:white;
+}
+
+.bloque-fecha .day{
+	font-size: 7.5rem;
+	line-height: 1;
+}
+
+.bloque-fecha .month-year{
+	line-height: 1;
+}
+
+.bloque-fecha .month{
+	font-size: 2.188rem;
+}
+
+.bloque-fecha .year{
+	font-size: 3.313rem;
+}
+
+.form-control::placeholder{
+	font-weight: 500 !important;
+	font-size: 1.125rem !important;
+	color:#444444 !important;
+}
+.form-control::-moz-placeholder{
+	font-weight: 500 !important;
+	font-size: 1.125rem !important;
+	color:#444444 !important;
+}
+.form-control::-webkit-input-placeholder{
+	font-weight: 500 !important;
+	font-size: 1.125rem !important;
+	color:#444444 !important;
+}
+
+/****************************************************** header */
+
+header .logo-principal .into{
+	max-width: 470px;
+}
+
+header .col-der{
+	padding-right: 0px;
+}
+
+header .col-der .bloque{
+	background-color: #009748;
+}
+
+header .col-der .bloque::before{
+	content: "";
+	width: 100%;
+	height: 53px;
+	z-index: 1;
+	position: absolute;
+	bottom: -43px;
+	background: url('../../congresoganaderia/img/bg/bottom.png') no-repeat;
+	background-size: 100%;
+}
+
+header .social-superior{
+	color:white;
+	font-size: 1.25rem;
+	/* border-bottom: 2px solid #7AC07D; */
+	padding-bottom: 4px;
+	padding-top: 2px;
+	box-shadow: 2px 7px 5px -2px rgba(0,0,0,0.31);
+}
+
+header .social-superior a{
+	color:white;
+}
+
+header .social-superior a span{
+	font-size: 15px;
+}
+
+header .social-superior a .fa-facebook{
+	color:#4B9E50;
+}
+
+header .emails{
+	line-height: 1.2;
+}
+
+header .emails a{
+	color:white;
+	font-size: 1.25rem;
+}
+
+header .phones a{
+	color:white;
+	font-size: 1.25rem;
+}
+
+header .phones .first a{
+	font-size: 1.75rem;
+}
+
+header .phones .first span{
+	color:white;
+	font-size: 15px;
+	margin-top: -13px;
+}
+
+header .phones .first span .fa-phone{
+	color:#4B9E50;
+}
+
+header .dire{
+	color:white;
+	font-size: 1.25rem;
+	border-left: 1px solid rgba(255,255,255,0.5);
+	padding-left: 35px;
+	margin-top: 45px !important;
+}
+
+header .dire h4{
+	font-weight: 500;
+	font-size: 1.563rem;
+}
+
+header .dire address{
+	line-height: 1.1;
+}
+
+/****************************************************** Slider */
+
+#slider .colum-iz h5{
+	font-weight: 500;
+	font-size: 1.8rem;
+}
+
+#slider .capa{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#slider .carousel-caption{
+	left: 5%;
+	right: 5%;
+	top: 40%;
+}
+
+#slider .carousel-indicators li{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+}
+
+#slider .formulario{
+	position: absolute;
+	top: 20%;
+	right: 20%;
+	color:white;
+	z-index: 1;
+	background-color: white;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#slider .formulario h3{
+	font-size: 2.55rem;
+	font-weight: 500;
+	border-bottom: 1px solid white;
+	display: inline-block;
+}
+
+#slider .formulario h5{
+	font-size: 1.275rem;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+#slider .form-control{
+	background-color: rgba(255,255,255,0.8);
+}
+
+
+#slider .formulario .btn{
+	background-color: #4B9E50;
+}
+
+#slider .formulario input[type="text"]{
+	width: 200px;
+}
+
+/****************************************************** Informacion y Video */
+
+#infor-video{
+	padding-top: 3.125rem;
+	padding-bottom: 4.063rem;
+}
+
+#infor-video h2{
+	font-weight: 500;
+	font-size: 2.5rem;
+	color:#B89040;
+}
+
+#infor-video p{
+	color:#333333;
+	font-size: 1.188rem;
+	line-height: 1.25;
+	font-family: "Calibri";
+}
+
+/****************************************************** Cupos */
+
+#cupos{
+	background: url("/themes/imagina2017/congresoganaderia/img/bg/vacas.png") left center/50% 100% no-repeat,
+	url("/themes/imagina2017/congresoganaderia/img/bg/cupones-der-c.jpg") repeat;
+	box-shadow: 0px 2px 3px #5c5c5c inset;
+}
+
+#cupos .bloque-iz{
+	color:white;
+}
+
+#cupos .bloque-iz h2{
+	font-size: 3.75rem;
+	text-shadow: 3px 1px 9px #000;
+	margin-top: 6.25rem !important;
+}
+
+#cupos .bloque-iz h4{
+	font-size: 2.5rem;
+	text-shadow: 2px 3px 5px #151515;
+}
+
+#cupos .bloque-iz .subt{
+	margin-left: 40px;
+}
+
+#cupos .bloque-iz h5{
+	font-size: 1.563rem;
+	border-bottom: 1px solid white;
+}
+
+#cupos .bloque-iz ul{
+	font-size: 1.563rem;
+}
+
+#cupos .bloque-iz ul li{
+	 padding-left: 1.3em;
+}
+
+#cupos .bloque-iz ul li:before {
+  content: "\f00c"; 
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; 
+  width: 1.3em;
+  font-size: 1.25rem;
+}
+
+#cupos .bloque-der h4{
+	font-size: 1.563rem;
+	font-weight: 400;
+	color:#333333;
+}
+
+#cupos .bloque-der h5{
+	font-size: 1.25rem;
+	color:#4B9E50;
+	font-weight: 400;
+}
+
+#cupos .bloque-der .name{
+	font-size: 1.125rem;
+	color:#666666;
+}
+
+
+/****************************************************** Mapa */
+
+#mapa{
+	line-height: 0;
+}
+
+/****************************************************** Footer */
+#footer-top{
+	color: white;
+	font-size: 1.25rem;
+}
+
+#footer-top ul li{
+	padding-left: 25px;
+	padding-right: 25px;
+	border-right: 1px solid rgba(255,255,255,0.5);
+}
+
+#footer-top ul li:last-child{
+	border-right: 0px;
+}
+
+#footer-top .followus p{
+	font-size: 1.125rem;
+}
+
+#footer-top .followus a{
+	color:white;
+}
+
+#footer-top .followus a .fa-facebook{
+	color:#4B9E50;
+}
+
+#footer-top .phones a,
+#footer-top .emails a{
+	color:white;
+	font-size: 1.25rem;
+}
+
+#footer-top .address h4{
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+#footer-bottom{
+	border-top: 1px solid rgba(255,255,255,0.25);
+	color:white;
+	font-size: 0.8125rem;
+}
+
+/*==========================================================================================*/
+
+@media (max-width: 1600px) {
+	#slider .formulario{
+		top: 15%;
+	}
+}
+
+@media (max-width: 1400px) {
+
+	html{
+		font-size: 14px;
+	}
+
+	header .social-superior{
+		margin-left: 59%;
+	}
+
+}
+
+@media (max-width: 1300px) {
+
+	#slider .formulario{
+		top: 10%;
+		right: 10%;
+	}
+
+	#slider .form-control{
+		height: 40px;
+	}
+
+	#slider textarea{
+		height: 60px !important;
+	}
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	html{
+		font-size: 13px;
+	}
+
+
+	#slider .formulario h3{
+		font-size: 2.5rem;
+	}
+
+	#slider .formulario h5{
+		font-size: 1.5rem;
+	}
+
+	#slider .form-group{
+		margin-bottom: 0.5rem;
+	}
+
+	#slider .formulario input[type="text"]{
+		width: 100%;
+	}
+
+	#slider .carousel-caption{
+		top:35%;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	html{
+		font-size: 13px;
+	}
+
+	header .logo-principal .into{
+		margin: auto;
+	}
+
+	header .col-der{
+		padding-left: 0px;
+	}
+
+	header .social-superior{
+		margin: 0px;
+		text-align: center;
+		padding-top: 5px;
+	}
+
+	header .infor-der{
+		margin-left: 0px !important;
+	}
+
+	header .col-der .bloque::before{
+		display: none;
+	}
+
+
+	#slider .colum-iz h5{
+		font-size: 1.5rem;
+	}
+
+	#slider .formulario h3{
+		font-size: 2.5rem;
+	}
+
+	#slider .formulario h5{
+		font-size: 1.5rem;
+	}
+
+	#slider .form-group{
+		margin-bottom: 0.5rem;
+	}
+
+	#slider .form-control{
+		height: 25px;
+	}
+
+	#slider .formulario input[type="text"]{
+		width: 100%;
+	}
+
+	.form-control::placeholder{
+		font-weight: 400 !important;
+		font-size: 0.8rem !important;
+	
+	}
+	.form-control::-moz-placeholder{
+		font-weight: 400 !important;
+		font-size: 0.8rem !important;
+		
+	}
+	.form-control::-webkit-input-placeholder{
+		font-weight: 400 !important;
+		font-size: 0.8rem !important;
+	}
+
+	#cupos{
+		background: url("/themes/imagina2017/congresoganaderia/img/bg/vacas.png") top center/100% 45% no-repeat,
+		url("/themes/imagina2017/congresoganaderia/img/bg/cupones-der-c.jpg") repeat;
+	}
+
+	#cupos .bloque-der{
+		margin-top: 50px;
+	}
+
+	#footer-top .address{
+		margin-top: 20px;
+	}
+
+	#footer-top ul li{
+		border-right: 0px;
+	}
+
+
+}
+
+@media (max-width: 767px){
+
+	html{
+		font-size: 13px;
+	}
+
+	header .logo-principal .into{
+		margin: auto;
+	}
+
+	header .col-der{
+		padding-left: 0px;
+	}
+
+	header .social-superior{
+		margin: 0px;
+		text-align: center;
+		padding-top: 5px;
+	}
+
+	header .infor-der{
+		margin-left: 0px !important;
+	}
+
+	header .col-der .bloque::before{
+		display: none;
+	}
+
+	#slider .colum-iz{
+		display: none !important;
+	}
+
+	#slider .formulario{
+		top: 5%;
+		right: 20%;
+		left: 20%;
+	}
+
+	#slider .formulario input[type="text"]{
+		width: 100%;
+	}
+
+	#slider .carousel-item,
+	#slider .carousel-item img{
+		min-height: 300px;
+	}
+
+	#slider .carousel-caption{
+		top:0;
+	}
+
+	#slider .formulario h3{
+		font-size: 2.5rem;
+	}
+
+	#slider .formulario h5{
+		font-size: 1.5rem;
+	}
+
+	#slider .form-group{
+		margin-bottom: 0.5rem;
+	}
+
+	#slider .form-control{
+		height: 25px;
+	}
+
+	.form-control::placeholder{
+		font-weight: 400 !important;
+		font-size: 0.8rem !important;
+	
+	}
+	.form-control::-moz-placeholder{
+		font-weight: 400 !important;
+		font-size: 0.8rem !important;
+		
+	}
+	.form-control::-webkit-input-placeholder{
+		font-weight: 400 !important;
+		font-size: 0.8rem !important;
+	}
+
+	#cupos{
+		background: url("/themes/imagina2017/congresoganaderia/img/bg/vacas.png") top center/100% 45% no-repeat,
+		url("/themes/imagina2017/congresoganaderia/img/bg/cupones-der-c.jpg") repeat;
+	}
+
+	#cupos .bloque-der{
+		margin-top: 50px;
+	}
+
+	#footer-top ul li{
+		border-right: 0px;
+		padding: 15px;
+	}
+
+}
+
+@media  (max-width: 575px) {
+
+	html{
+		font-size: 12px;
+	}
+
+	#slider .carousel-item,
+	#slider .carousel-item img{
+		min-height: 450px;
+	}
+
+}
+
+@media  (max-width: 450px) {
+
+	html{
+		font-size: 11px;
+	}
+
+}
+
+
+/* lyon code */
+
+.circle-social{
+	border: solid 2px #ED7E13;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: inline-block;
+	text-shadow: 4px 3px 5px rgba(17,17,17,0.35);
+	background: transparent;
+}
+
+.circle-social-white{
+	border: solid 2px white;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: inline-block;
+	text-shadow: 4px 3px 5px rgba(17,17,17,0.35);
+	background: transparent;
+}
+
+.text-shadow{
+	text-shadow: 4px 3px 5px rgba(17,17,17,0.35);
+}
+
+.block-carousel{
+	color: #02533F;
+	background-color:white;
+	font-size: 45pt; 
+}
+
+.text-green{
+	color: #02533F;
+}
+
+.text-orange{
+	color: #ED7E13;
+}
+
+.register-block{
+	border-top: solid 5px #ED7E13;
+	/* box-shadow: 4px 3px 2px rgba(0,0,0,0.49); */
+}
+
+.register-block:before{
+	content: '';
+	width: 100%;
+	z-index: 1;   
+	position: absolute;
+	height: 30px;
+	top: 120px;
+	left: 0;
+	/* background-color: #009748 */
+	/* border-left: solid 100vw transparent; 
+	border-right: solid 100vw transparent;  */
+	/* border-bottom: solid 40px #4F0D51; */
+	background: url('../../congresoganaderia/img/bg/bottom-card.png') no-repeat;
+	background-size: 100%;
+}
+
+.color-grey{
+	color:#777777;
+}
+
+
+.block-part{
+
+	background: url('../../congresoganaderia/img/bg/maiz.png') no-repeat;
+	background-size: 100%;
+	
+}
+
+ul li:before {
+	content: "\f00c";
+	font-family: FontAwesome;
+	display: inline-block;
+	margin-left: -1.3em;
+	width: 1.3em;
+	font-size: 1.25rem;
+}
